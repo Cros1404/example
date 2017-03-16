@@ -15,9 +15,10 @@
             <button class="btn btn-primary" type="button" onclick="loadPage('client.html')">ClientSide</button>
             <button class="btn btn-danger" type="button" onclick="loadPage('server.php')">ServerSide</button>
             <button class="btn btn-info" type="button" onclick="loadPage('array.php')">Array</button>
-            <button type="button" onclick="loadPage('postExample.php')">Post</button>
-            <button type="button" onclick="loadPage('getExample.php')">Post</button>
-            <button type="button" onclick="loadPage('objExample.php')">Object</button>
+            <button class="btn btn-primary" type="button" onclick="loadPage('postExample.php')">Post</button>
+            <button class="btn btn-primary" type="button" onclick="loadPage('getExample.php')">Get</button>
+            <button class="btn btn-primary" type="button" onclick="loadPage('objExample.php')">Object</button>
+            <button class="btn btn-primary" type="button" onclick="loadPage('form_example.php')">Form</button>
         </div>
         
         <hr>
@@ -25,7 +26,7 @@
         <div id="content" class="container">
             Start
         </div>
-
+        
         <div id="footer">
             <hr> OAMK 2017    
         </div>
